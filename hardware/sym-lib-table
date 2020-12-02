@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name Lumex)(type Legacy)(uri ${KIPRJMOD}/Lumex.lib)(options "")(descr ""))
+  (lib (name Nexperia)(type Legacy)(uri ${KIPRJMOD}/Nexperia.lib)(options "")(descr ""))
+  (lib (name ONSemi)(type Legacy)(uri ${KIPRJMOD}/ONSemi.lib)(options "")(descr ""))
+  (lib (name TI)(type Legacy)(uri ${KIPRJMOD}/TI.lib)(options "")(descr ""))
+  (lib (name Espressif)(type Legacy)(uri ${KIPRJMOD}/Espressif.lib)(options "")(descr ""))
+  (lib (name APMemory)(type Legacy)(uri ${KIPRJMOD}/APMemory.lib)(options "")(descr ""))
+)

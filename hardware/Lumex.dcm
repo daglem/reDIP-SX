@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMD-LX0707RGB-TR
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F https://www.lumex.com/spec/SMD-LX0707RGB-TR.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CBTD3306
+D Dual bus switch with level shifting
+K bus
+F https://assets.nexperia.com/documents/data-sheet/CBTD3306.pdf
+$ENDCMP
+#
+#End Doc Library

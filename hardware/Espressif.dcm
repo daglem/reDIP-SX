@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-PICO-V3-02
+D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
+K RF Radio BT ESP ESP32 Espressif external antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3-02_datasheet_en.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SGTL5000XNLA3
+D Low Power Stereo Codec with Headphone Amp
+K Audio, Codec
+F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+$ENDCMP
+#
+#End Doc Library
