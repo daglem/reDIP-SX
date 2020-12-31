@@ -6,9 +6,9 @@
 ## Overview
 The reDIP sx is a open source hardware development board which combines the following in a DIP-32 size package:
 
-* ESP32-PICO-V3-02 MCU with Wi-Fi and Bluetooth
-* iCE40UP5K FPGA
-* SGTL5000 Audio Codec
+* Espressif ESP32-PICO-V3-02 MCU with Wi-Fi and Bluetooth
+* Lattice iCE40UP5K FPGA
+* NXP SGTL5000 Audio Codec
 * 64Mbit PSRAM
 * Two RGB LEDs
 * USB-C receptacle for power, serial, and analog audio
@@ -23,13 +23,13 @@ The reDIP sx is a open source hardware development board which combines the foll
 * 5V input
 * 3.3V output
 * 22 FPGA GPIO
-* 3 FPGA current drive / open-drain I/O, one with pullup
+* 3 FPGA current drive / open-drain I/O
 * 4 audio pins (stereo line input, stereo headphone output)
 * GND
 
 All FPGA I/O is 5V tolerant, and can drive 5V TTL. JP1 can be shorted to make the 5V input pin bidirectional, e.g. for powering 5V TTL devices.
 
-The number of FPGA I/O is sufficient for e.g. 5 PMOD interfaces (or 6, with two pins open-drain or input-only).
+The number of FPGA I/O is sufficient for e.g. 5 six-pin PMOD interfaces (or 6, with two pins open-drain or input-only).
 
 #### Solder pads:
 

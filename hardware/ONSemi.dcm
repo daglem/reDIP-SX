@@ -30,7 +30,19 @@ K LDO, Regulator
 F https://www.onsemi.com/pub/Collateral/NCP163-D.PDF
 $ENDCMP
 #
+$CMP NCP163AMX120TBG
+D LDO Regulator - Ultra-LowNoise, High PSRR, RF andAnalog Circuits
+K LDO, Regulator
+F https://www.onsemi.com/pub/Collateral/NCP163-D.PDF
+$ENDCMP
+#
 $CMP NCP167AFCT330T2G
+D LDO Regulator - Ultra-LowNoise, High PSRR, RF andAnalog Circuits
+K LDO, Regulator
+F https://www.onsemi.com/pub/Collateral/NCP167-D.PDF
+$ENDCMP
+#
+$CMP NCP167AMX330TBG
 D LDO Regulator - Ultra-LowNoise, High PSRR, RF andAnalog Circuits
 K LDO, Regulator
 F https://www.onsemi.com/pub/Collateral/NCP167-D.PDF

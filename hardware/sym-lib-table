@@ -5,4 +5,5 @@
   (lib (name TI)(type Legacy)(uri ${KIPRJMOD}/TI.lib)(options "")(descr ""))
   (lib (name Espressif)(type Legacy)(uri ${KIPRJMOD}/Espressif.lib)(options "")(descr ""))
   (lib (name APMemory)(type Legacy)(uri ${KIPRJMOD}/APMemory.lib)(options "")(descr ""))
+  (lib (name reDIP)(type Legacy)(uri ${KIPRJMOD}/reDIP.lib)(options "")(descr ""))
 )
