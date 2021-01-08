@@ -34,6 +34,7 @@ The number of FPGA I/O is sufficient for e.g. 5 six-pin PMOD interfaces (or 6, w
 #### Solder pads:
 
 * Stereo line output (left, right, GND)
+* RGB LED strip
 * ESP32 IO25
 * ESP32 I35
 
