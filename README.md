@@ -1,10 +1,10 @@
 # reDIP sx
 
-## ESP32 / iCE40UP5K / SGTL5000 development board with MOS 6581/8580 pinout
+## ESP32 / iCE40UP5K / SGTL5000 development board with MOS 6581/8580 SID pinout
 ![Board](documentation/reDIP-sx-board.png)
 
 ## Overview
-The reDIP sx is a open source hardware development board which combines the following in a DIP-32 size package:
+The reDIP sx is an open source hardware development board which combines the following in a DIP-32 size package:
 
 * Espressif ESP32-PICO-V3-02 MCU with Wi-Fi and Bluetooth
 * Lattice iCE40UP5K FPGA
@@ -13,6 +13,10 @@ The reDIP sx is a open source hardware development board which combines the foll
 * Two RGB LEDs
 * USB-C receptacle for power, serial, and analog audio
 * 5V tolerant I/O
+
+In short, a lot of fun is crammed onto a small board!
+
+For a more purist FPGA platform for MOS 6581/8580 SID emulation, see [reDIP SID](https://github.com/daglem/reDIP-SID).
 
 ## General use
 
@@ -29,12 +33,12 @@ The reDIP sx is a open source hardware development board which combines the foll
 
 All FPGA I/O is 5V tolerant, and can drive 5V TTL. JP1 can be shorted to make the 5V input pin bidirectional, e.g. for powering 5V TTL devices.
 
-The number of FPGA I/O is sufficient for e.g. 5 six-pin PMOD interfaces (or 6, with two pins open-drain or input-only).
+The number of FPGA I/O is sufficient for e.g. three twelve-pin PMOD interfaces (with two pins open-drain or input-only).
 
 #### Solder pads:
 
 * Stereo line output (left, right, GND)
-* RGB LED strip
+* RGB LED strip data
 * ESP32 IO25
 * ESP32 I35
 
