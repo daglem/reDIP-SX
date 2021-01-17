@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "reDIP sx"
-Date "2020-12-31"
+Date "2021-01-17"
 Rev "0.1"
 Comp "Nimrod"
-Comment1 "© 2020 Dag Lem"
+Comment1 "© 2020 - 2021 Dag Lem"
 Comment2 "Licensed under CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
 Comment3 ""
 Comment4 ""
@@ -2213,7 +2213,7 @@ NoConn ~ 3250 8550
 NoConn ~ 3250 8650
 NoConn ~ 3250 8750
 Text Notes 4400 7650 0    50   ~ 0
-To mount in a SID socket; use a\n28 pin stamped DIP socket with pins\n1 - 4 and 28 removed as an adapter.\n\nWarning! Pin 28 in a SID socket must\nNOT be connected (Vdd: +9V / +12V)!
+To mount in a SID socket; Remove pins 1 - 4\nand 28 from a 28 pin stamped DIP socket,\nand use this as an adapter.\n\nWarning! AUDIO_OUT_2 must NOT be connected\nto pin 28 in a SID socket (Vdd: +9V / +12V)!
 $Comp
 L FPGA_Lattice:ICE40UP5K-SG48ITR U8
 U 2 1 5E2796F8
@@ -3227,11 +3227,11 @@ L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 5F93B61E
 P 1400 4550
 F 0 "J1" H 1400 5450 50  0000 C CNN
-F 1 "DX07S016JA3" H 1400 5350 50  0000 C CNN
-F 2 "JAE:USB_C_Receptacle_JAE_DX07S016JA3_PinInPaste" H 1550 4550 50  0001 C CNN
-F 3 "https://www.jae.com/en/connectors/series/detail/product/id=91781" H 1550 4550 50  0001 C CNN
+F 1 "DX07S016JA1" H 1400 5350 50  0000 C CNN
+F 2 "JAE:USB_C_Receptacle_JAE_DX07S016JA1" H 1550 4550 50  0001 C CNN
+F 3 "https://www.jae.com/en/connectors/series/detail/product/id=91780" H 1550 4550 50  0001 C CNN
 F 4 "Japan Aviation Electronics Industry, Ltd." H 1400 4550 50  0001 C CNN "Mfg"
-F 5 "DX07S016JA3R1500" H 1400 4550 50  0001 C CNN "PN"
+F 5 "DX07S016JA1R1500" H 1400 4550 50  0001 C CNN "PN"
 F 6 "CONN USB-C" H 1400 4550 50  0001 C CNN "Description"
 	1    1400 4550
 	1    0    0    -1  
@@ -3609,8 +3609,8 @@ Wire Wire Line
 	10900 2100 10900 2350
 Wire Wire Line
 	10350 10250 10600 10250
-Text Notes 8000 5700 0    50   ~ 0
-Example APLL clock frequency\n24.576MHz (512 * 48kHz):\n\nsdm0 = 149\nsdm1 = 212\nsdm2 = 5\nodiv = 6
+Text Notes 8000 5250 0    50   ~ 0
+Example APLL clock frequency\n24.576MHz (512 * 48kHz):
 Wire Wire Line
 	7300 10250 7550 10250
 Wire Wire Line
@@ -3667,4 +3667,8 @@ F 6 "RES 22Ω 50mW 5% 0201" H 10450 10150 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	10350 10150 10250 10150
+Text Notes 8000 5700 0    50   ~ 0
+24.575996MHz:\nsdm0 = 149\nsdm1 = 212\nsdm2 = 5\nodiv = 6
+Text Notes 8700 5700 0    50   ~ 0
+24.576009MHz:\nsdm0 = 40\nsdm1 = 15\nsdm2 = 7\nodiv = 7
 $EndSCHEMATC
