@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "reDIP sx"
+Title "reDIP SX"
 Date "2021-01-17"
 Rev "0.1"
 Comp "Nimrod"

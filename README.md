@@ -1,22 +1,22 @@
-# reDIP sx
+# reDIP SX
 
 ## ESP32 / iCE40UP5K / SGTL5000 development board with MOS 6581/8580 SID pinout
-![Board](documentation/reDIP-sx-board.png)
+![Board](documentation/reDIP-SX-board.png)
 
 ## Overview
-The reDIP sx is an open source hardware development board which combines the following in a DIP-32 size package:
+The reDIP SX is an open source hardware development board which combines the following in a DIP-32 size package:
 
 * Espressif ESP32-PICO-V3-02 MCU with Wi-Fi and Bluetooth
 * Lattice iCE40UP5K FPGA
 * NXP SGTL5000 Audio Codec
 * 64Mbit PSRAM
 * Two RGB LEDs
-* USB-C receptacle for power, serial, and analog audio
+* USB-C receptacle for power, serial communication, and analog audio
 * 5V tolerant I/O
 
-In short, a lot of fun is crammed onto a small board!
+In short, a lot of fun stuff is crammed onto a small board!
 
-For a more purist FPGA platform for MOS 6581/8580 SID emulation, see [reDIP SID](https://github.com/daglem/reDIP-SID).
+For a more purist FPGA platform for MOS 6581/8580 SID emulation, you need look no further than the [reDIP SID](https://github.com/daglem/reDIP-SID)!
 
 ## General use
 
@@ -79,14 +79,14 @@ For anyone wanting to experiment with a SID setup, while avoiding blown fuses, d
 
 * A 2A C64 power supply is recommended
 * Make sure that JP1 is open
-* Carefully follow the instructions in the [schematic diagram](documentation/reDIP-sx-sch.pdf) for making a socket adapter
+* Carefully follow the instructions in the [schematic diagram](documentation/reDIP-SX-sch.pdf) for making a socket adapter
 
 ## Disclaimer
 
 Please note that this is my very first board - rookie mistakes are probably made, and feedback is welcome. The board has not been manufactured yet, and is thus completely untested.
 
 ## Board Front
-![Board Front](documentation/reDIP-sx-board-front.png)
+![Board Front](documentation/reDIP-SX-board-front.png)
 
 ## Board Back
-![Board Back](documentation/reDIP-sx-board-back.png)
+![Board Back](documentation/reDIP-SX-board-back.png)
