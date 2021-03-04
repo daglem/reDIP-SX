@@ -31,7 +31,7 @@ For a more purist FPGA platform for MOS 6581/8580 SID emulation, you need look n
 * 4 audio pins (stereo line input, stereo headphone output)
 * GND
 
-All FPGA I/O is 5V tolerant, and can drive 5V TTL. JP1 can be shorted to make the 5V input pin bidirectional, e.g. for powering 5V TTL devices.
+All FPGA I/O is 5V tolerant, and can drive 5V TTL. JP1 can be shorted to make the 5V input pin bidirectional, e.g. to power 5V TTL devices.
 
 The number of FPGA I/O is sufficient for e.g. three twelve-pin PMOD interfaces (with two pins open-drain or input-only).
 
