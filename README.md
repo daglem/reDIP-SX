@@ -83,7 +83,7 @@ For anyone wanting to experiment with a SID setup, while avoiding blown fuses, d
 
 ## Disclaimer
 
-Please note that this is my very first board - rookie mistakes are probably made, and feedback is welcome. The board has not been manufactured yet, and is thus completely untested.
+Please note that this is my very first board - rookie mistakes are probably made, and [feedback](https://github.com/daglem/reDIP-SX/discussions/1) is welcome. The board has not been manufactured yet, and is thus completely untested.
 
 ## Board Front
 ![Board Front](documentation/reDIP-SX-board-front.png)
