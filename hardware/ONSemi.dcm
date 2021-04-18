@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 7WBD3306USG
+D 2-Bit Translating Bus Switch
+K bus switch
+F https://www.onsemi.com/pdf/datasheet/7wbd3306-d.pdf
+$ENDCMP
+#
 $CMP ESD7016
 D ESD Protection Diode, Low Capacitance, USB 3.0
 K ESD protection suppression transient
@@ -16,6 +22,12 @@ $CMP FSA8049UCX
 D Audio Jack Detection and Configuration, MIC / GND  Cross Point Switch
 K Audio, Switch
 F https://www.onsemi.com/pub/Collateral/FSA8049-D.pdf
+$ENDCMP
+#
+$CMP NCP115AMX120TCG
+D LDO Regulator - High PSRR
+K LDO, Regulator
+F https://www.onsemi.com/pdf/datasheet/ncp115-d.pdf
 $ENDCMP
 #
 $CMP NCP163AFCT120T2G
