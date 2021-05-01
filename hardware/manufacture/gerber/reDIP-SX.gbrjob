@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.9-1.fc33"
     },
-    "CreationDate":  "2021-04-18T22:31:40+02:00"
+    "CreationDate":  "2021-05-01T23:08:35+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "reDIP-SX",
       "GUID": "72654449-502d-4535-982e-6b696361645f",
-      "Revision": "0.1"
+      "Revision": "0.2"
     },
     "Size":
     {
@@ -49,78 +49,68 @@
   "FilesAttributes":
   [
     {
-      "Path":  "reDIP-SX-F_Cu.gbr",
+      "Path":  "reDIP-SX.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "reDIP-SX-In1_Cu.gbr",
-      "FileFunction":  "Copper,L2,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "reDIP-SX-In2_Cu.gbr",
-      "FileFunction":  "Copper,L3,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "reDIP-SX-In3_Cu.gbr",
-      "FileFunction":  "Copper,L4,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "reDIP-SX-In4_Cu.gbr",
-      "FileFunction":  "Copper,L5,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "reDIP-SX-B_Cu.gbr",
+      "Path":  "reDIP-SX.gbl",
       "FileFunction":  "Copper,L6,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "reDIP-SX-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "reDIP-SX-B_Paste.gbr",
+      "Path":  "reDIP-SX.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "reDIP-SX-F_SilkS.gbr",
+      "Path":  "reDIP-SX.gtp",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "reDIP-SX.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "reDIP-SX-B_SilkS.gbr",
+      "Path":  "reDIP-SX.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "reDIP-SX-F_Mask.gbr",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
-    },
-    {
-      "Path":  "reDIP-SX-B_Mask.gbr",
+      "Path":  "reDIP-SX.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "reDIP-SX-Edge_Cuts.gbr",
+      "Path":  "reDIP-SX.gts",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "reDIP-SX.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "reDIP-SX-F_Fab.gbr",
-      "FileFunction":  "AssemblyDrawing,Top",
+      "Path":  "reDIP-SX.g2",
+      "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "reDIP-SX-B_Fab.gbr",
-      "FileFunction":  "AssemblyDrawing,Bot",
+      "Path":  "reDIP-SX.g3",
+      "FileFunction":  "Copper,L3,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "reDIP-SX.g4",
+      "FileFunction":  "Copper,L4,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "reDIP-SX.g5",
+      "FileFunction":  "Copper,L5,Inr",
       "FilePolarity":  "Positive"
     }
   ],

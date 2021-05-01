@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "reDIP SX"
-Date "2021-04-18"
-Rev "0.1"
+Date "2021-05-01"
+Rev "0.2"
 Comp "Nimrod"
 Comment1 "© 2020 - 2021 Dag Lem"
 Comment2 "Licensed under CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
@@ -275,34 +275,25 @@ $EndComp
 Wire Wire Line
 	10450 7100 10650 7100
 Wire Wire Line
-	10250 7100 10050 7100
-Wire Wire Line
 	9700 7100 9700 7200
 Connection ~ 9700 7100
 Wire Wire Line
 	9700 7100 9400 7100
 Wire Wire Line
-	10050 7100 10050 7150
-Connection ~ 10050 7100
-Wire Wire Line
-	10050 7100 9700 7100
-Wire Wire Line
 	9700 7400 9700 7500
 Wire Wire Line
-	9700 7500 9900 7500
+	9700 7500 9850 7500
 $Comp
 L power:GND #PWR051
 U 1 1 5E6E1058
-P 9900 7600
-F 0 "#PWR051" H 9900 7350 50  0001 C CNN
-F 1 "GND" H 9905 7427 50  0000 C CNN
-F 2 "" H 9900 7600 50  0001 C CNN
-F 3 "" H 9900 7600 50  0001 C CNN
-	1    9900 7600
+P 9850 7600
+F 0 "#PWR051" H 9850 7350 50  0001 C CNN
+F 1 "GND" H 9855 7427 50  0000 C CNN
+F 2 "" H 9850 7600 50  0001 C CNN
+F 3 "" H 9850 7600 50  0001 C CNN
+	1    9850 7600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 7450 10050 7500
 $Comp
 L power:GND #PWR062
 U 1 1 5E747883
@@ -437,62 +428,41 @@ Connection ~ 10500 8150
 Wire Wire Line
 	10500 8150 11100 8150
 Wire Wire Line
-	9900 7600 9900 7500
-Connection ~ 9900 7500
-Wire Wire Line
-	9900 7500 10050 7500
+	9850 7600 9850 7500
 $Comp
 L power:+1V2 #PWR043
 U 1 1 5EB96B60
-P 7900 7000
-F 0 "#PWR043" H 7900 6850 50  0001 C CNN
-F 1 "+1V2" H 7915 7173 50  0000 C CNN
-F 2 "" H 7900 7000 50  0001 C CNN
-F 3 "" H 7900 7000 50  0001 C CNN
-	1    7900 7000
+P 8000 7000
+F 0 "#PWR043" H 8000 6850 50  0001 C CNN
+F 1 "+1V2" H 8015 7173 50  0000 C CNN
+F 2 "" H 8000 7000 50  0001 C CNN
+F 3 "" H 8000 7000 50  0001 C CNN
+	1    8000 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 7500 8500 7500
-Connection ~ 8250 7500
+	8500 7400 8500 7500
 Wire Wire Line
-	8250 7400 8250 7500
+	8200 7500 8350 7500
 Wire Wire Line
-	8000 7500 8250 7500
-Wire Wire Line
-	8000 7400 8000 7500
-Wire Wire Line
-	8500 7500 8500 7400
-Wire Wire Line
-	8500 7100 8250 7100
-Connection ~ 8500 7100
+	8200 7400 8200 7500
 Wire Wire Line
 	8500 7100 8500 7200
 Wire Wire Line
-	8250 7100 8000 7100
-Connection ~ 8250 7100
+	8200 7100 8200 7200
 Wire Wire Line
-	8250 7100 8250 7200
+	8000 7100 8000 7000
 Wire Wire Line
-	8000 7100 7900 7100
-Connection ~ 8000 7100
-Wire Wire Line
-	8000 7100 8000 7200
-Wire Wire Line
-	7900 7100 7900 7000
-Wire Wire Line
-	9300 7100 8500 7100
-Wire Wire Line
-	8250 7600 8250 7500
+	8350 7600 8350 7500
 $Comp
 L power:GND #PWR049
 U 1 1 5E8FB01A
-P 8250 7600
-F 0 "#PWR049" H 8250 7350 50  0001 C CNN
-F 1 "GND" H 8255 7427 50  0000 C CNN
-F 2 "" H 8250 7600 50  0001 C CNN
-F 3 "" H 8250 7600 50  0001 C CNN
-	1    8250 7600
+P 8350 7600
+F 0 "#PWR049" H 8350 7350 50  0001 C CNN
+F 1 "GND" H 8355 7427 50  0000 C CNN
+F 2 "" H 8350 7600 50  0001 C CNN
+F 3 "" H 8350 7600 50  0001 C CNN
+	1    8350 7600
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2251,25 +2221,10 @@ F 6 "CONN HEADER 10 POS .100\" SGL GOLD MATING 5.84mm TAIL 3.05mm" H 3200 9250 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
-U 1 1 5E5FEBE6
-P 10050 7300
-F 0 "C29" H 10050 7400 50  0000 L CNN
-F 1 "10uF" H 10050 7200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10088 7150 50  0001 C CNN
-F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM155R60J106ME15D" H 10050 7300 50  0001 C CNN
-F 4 "Murata" H 10050 7300 50  0001 C CNN "Mfg"
-F 5 "GRM155R60J106ME15D" H 10050 7300 50  0001 C CNN "PN"
-F 6 "CAP CER 10uF 6.3V 20% X5R 0402" H 10050 7300 50  0001 C CNN "Description"
-F 7 "1.2V DC" H 10050 7300 50  0001 C CNN "Notes"
-	1    10050 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C28
+L Device:C_Small C27
 U 1 1 5E5FFD7F
 P 9700 7300
-F 0 "C28" H 9700 7400 50  0000 L CNN
+F 0 "C27" H 9700 7400 50  0000 L CNN
 F 1 "0.1uF" H 9700 7200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 9700 7300 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 9700 7300 50  0001 C CNN
@@ -2327,31 +2282,16 @@ $EndComp
 $Comp
 L Device:C_Small C24
 U 1 1 5E93F678
-P 8000 7300
-F 0 "C24" H 8000 7400 50  0000 L CNN
-F 1 "1uF" H 8000 7200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 8000 7300 50  0001 C CNN
-F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033C80J105ME05D" H 8000 7300 50  0001 C CNN
-F 4 "Murata" H 8000 7300 50  0001 C CNN "Mfg"
-F 5 "GRM033C80J105ME05D" H 8000 7300 50  0001 C CNN "PN"
-F 6 "CAP CER 1uF 6.3V 20% X6S 0201" H 8000 7300 50  0001 C CNN "Description"
-F 7 "1.2V DC" H 8000 7300 50  0001 C CNN "Notes"
-	1    8000 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C26
-U 1 1 5E8A1268
-P 8500 7300
-F 0 "C26" H 8500 7400 50  0000 L CNN
-F 1 "10n" H 8500 7200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 8500 7300 50  0001 C CNN
-F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J103KA01D" H 8500 7300 50  0001 C CNN
-F 4 "Murata" H 8500 7300 50  0001 C CNN "Mfg"
-F 5 "GRM033R60J103KA01D" H 8500 7300 50  0001 C CNN "PN"
-F 6 "CAP CER 10nF 6.3V 10% X5R 0201" H 8500 7300 50  0001 C CNN "Description"
-F 7 "1.2V DC" H 8500 7300 50  0001 C CNN "Notes"
-	1    8500 7300
+P 8200 7300
+F 0 "C24" H 8200 7400 50  0000 L CNN
+F 1 "1uF" H 8200 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 8200 7300 50  0001 C CNN
+F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033C80J105ME05D" H 8200 7300 50  0001 C CNN
+F 4 "Murata" H 8200 7300 50  0001 C CNN "Mfg"
+F 5 "GRM033C80J105ME05D" H 8200 7300 50  0001 C CNN "PN"
+F 6 "CAP CER 1uF 6.3V 20% X6S 0201" H 8200 7300 50  0001 C CNN "Description"
+F 7 "1.2V DC" H 8200 7300 50  0001 C CNN "Notes"
+	1    8200 7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2483,10 +2423,10 @@ F 7 "1.55V DC AUDIO" H 14950 3000 50  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C32
+L Device:C_Small C31
 U 1 1 5F4EE5D0
 P 10500 8300
-F 0 "C32" H 10300 8350 50  0000 L CNN
+F 0 "C31" H 10300 8350 50  0000 L CNN
 F 1 "0.1uF" H 10250 8250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 10500 8300 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 10500 8300 50  0001 C CNN
@@ -2515,23 +2455,23 @@ $EndComp
 $Comp
 L Device:C_Small C25
 U 1 1 5E8A17F7
-P 8250 7300
-F 0 "C25" H 8250 7400 50  0000 L CNN
-F 1 "0.1uF" H 8250 7200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 8250 7300 50  0001 C CNN
-F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 8250 7300 50  0001 C CNN
-F 4 "Murata" H 8250 7300 50  0001 C CNN "Mfg"
-F 5 "GRM033R60J224KE15D" H 8250 7300 50  0001 C CNN "PN"
-F 6 "CAP CER 0.22uF 6.3V 20% X5R 0201" H 8250 7300 50  0001 C CNN "Description"
-F 7 "3.3V DC DERATED TO 0.1uF" H 8250 7300 50  0001 C CNN "Notes"
-	1    8250 7300
+P 8500 7300
+F 0 "C25" H 8500 7400 50  0000 L CNN
+F 1 "0.1uF" H 8500 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 8500 7300 50  0001 C CNN
+F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 8500 7300 50  0001 C CNN
+F 4 "Murata" H 8500 7300 50  0001 C CNN "Mfg"
+F 5 "GRM033R60J224KE15D" H 8500 7300 50  0001 C CNN "PN"
+F 6 "CAP CER 0.22uF 6.3V 20% X5R 0201" H 8500 7300 50  0001 C CNN "Description"
+F 7 "3.3V DC DERATED TO 0.1uF" H 8500 7300 50  0001 C CNN "Notes"
+	1    8500 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C31
+L Device:C_Small C30
 U 1 1 5F460CD8
 P 7450 8200
-F 0 "C31" H 7250 8250 50  0000 L CNN
+F 0 "C30" H 7250 8250 50  0000 L CNN
 F 1 "0.1uF" H 7200 8150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 7450 8200 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 7450 8200 50  0001 C CNN
@@ -2543,10 +2483,10 @@ F 7 "3.3V DC DERATED TO 0.1uF" H 7450 8200 50  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C33
+L Device:C_Small C32
 U 1 1 5F3F233D
 P 8850 9100
-F 0 "C33" H 8650 9150 50  0000 L CNN
+F 0 "C32" H 8650 9150 50  0000 L CNN
 F 1 "0.1uF" H 8600 9050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 8850 9100 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 8850 9100 50  0001 C CNN
@@ -2599,10 +2539,10 @@ F 6 "RES 100Ω 50mW 5% 0201" H 10350 7100 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C27
+L Device:C_Small C26
 U 1 1 612545C7
 P 8900 7300
-F 0 "C27" H 8992 7346 50  0000 L CNN
+F 0 "C26" H 8992 7346 50  0000 L CNN
 F 1 "0.1uF" H 8992 7255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 8900 7300 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 8900 7300 50  0001 C CNN
@@ -3020,10 +2960,10 @@ F 7 "REPLACEMENT PARTS: Everlight 19-C47/RSGHBHC-5V01/2T, Everlight EAST1818RGBI
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C30
+L Device:C_Small C29
 U 1 1 5EBF6C70
 P 15550 8100
-F 0 "C30" H 15600 8200 50  0000 L CNN
+F 0 "C29" H 15600 8200 50  0000 L CNN
 F 1 "0.1uF" H 15550 8000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 15550 8100 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033R60J224KE15D" H 15550 8100 50  0001 C CNN
@@ -3227,6 +3167,7 @@ F 3 "https://www.jae.com/en/connectors/series/detail/product/id=91780" H 1550 45
 F 4 "Japan Aviation Electronics Industry, Ltd." H 1400 4550 50  0001 C CNN "Mfg"
 F 5 "DX07S016JA1R1500" H 1400 4550 50  0001 C CNN "PN"
 F 6 "CONN USB-C" H 1400 4550 50  0001 C CNN "Description"
+F 7 "PIN-IN-PASTE, paste overprinting included in design" H 1400 4550 50  0001 C CNN "Notes"
 	1    1400 4550
 	1    0    0    -1  
 $EndComp
@@ -3741,4 +3682,44 @@ Wire Wire Line
 Wire Wire Line
 	950  1650 1300 1650
 Connection ~ 1300 1650
+Connection ~ 8500 7100
+Wire Wire Line
+	8500 7100 9300 7100
+Wire Wire Line
+	8000 7100 8200 7100
+$Comp
+L Device:C_Small C28
+U 1 1 60CF952A
+P 10000 7300
+F 0 "C28" H 10000 7400 50  0000 L CNN
+F 1 "1uF" H 10000 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 10000 7300 50  0001 C CNN
+F 3 "https://www.murata.com/products/productdetail.aspx?partno=GRM033C80J105ME05D" H 10000 7300 50  0001 C CNN
+F 4 "Murata" H 10000 7300 50  0001 C CNN "Mfg"
+F 5 "GRM033C80J105ME05D" H 10000 7300 50  0001 C CNN "PN"
+F 6 "CAP CER 1uF 6.3V 20% X6S 0201" H 10000 7300 50  0001 C CNN "Description"
+F 7 "1.2V DC" H 10000 7300 50  0001 C CNN "Notes"
+	1    10000 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 7100 10000 7100
+Wire Wire Line
+	10000 7200 10000 7100
+Connection ~ 10000 7100
+Wire Wire Line
+	10000 7100 10250 7100
+Connection ~ 9850 7500
+Wire Wire Line
+	9850 7500 10000 7500
+Wire Wire Line
+	10000 7500 10000 7400
+Connection ~ 8200 7100
+Wire Wire Line
+	8200 7100 8500 7100
+Connection ~ 8350 7500
+Wire Wire Line
+	8350 7500 8500 7500
+Text Notes 6950 11050 0    50   ~ 0
+Note: If the PLL is used, G0 and G1\nbecome output-only.\nThe ESP32 APLL may alternatively be used\nto generate a custom clock frequency.\nIn this case, the I2S master clock must\nbe generated by the SGTL5000 PLL
 $EndSCHEMATC
