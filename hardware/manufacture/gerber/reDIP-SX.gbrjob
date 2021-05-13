@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.9-1.fc33"
+      "Version":     "5.1.10-1.fc34"
     },
-    "CreationDate":  "2021-05-01T23:08:35+02:00"
+    "CreationDate":  "2021-05-13T21:06:21+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,14 +15,14 @@
     {
       "Name": "reDIP-SX",
       "GUID": "72654449-502d-4535-982e-6b696361645f",
-      "Revision": "0.2"
+      "Revision": "0.3"
     },
     "Size":
     {
       "X": 18.280,
       "Y": 41.140
     },
-    "LayerNumber": 6,
+    "LayerNumber": 4,
     "BoardThickness":  1.600
   },
   "DesignRules":
@@ -55,7 +55,7 @@
     },
     {
       "Path":  "reDIP-SX.gbl",
-      "FileFunction":  "Copper,L6,Bot",
+      "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -102,16 +102,6 @@
       "Path":  "reDIP-SX.g3",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "reDIP-SX.g4",
-      "FileFunction":  "Copper,L4,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "reDIP-SX.g5",
-      "FileFunction":  "Copper,L5,Inr",
-      "FilePolarity":  "Positive"
     }
   ],
   "MaterialStackup":
@@ -154,24 +144,6 @@
       "Type":  "Dielectric",
       "Material":  "FR4",
       "Notes":  "Layers L3/L4"
-    },
-    {
-      "Type":  "Copper",
-      "Notes":  "Layer In3.Cu"
-    },
-    {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L4/L5"
-    },
-    {
-      "Type":  "Copper",
-      "Notes":  "Layer In4.Cu"
-    },
-    {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L5/L6"
     },
     {
       "Type":  "Copper",
